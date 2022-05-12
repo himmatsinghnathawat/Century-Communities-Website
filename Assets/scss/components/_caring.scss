@@ -1,0 +1,63 @@
+.caring{
+   
+    &-img{
+        background-image: url('../../images/aaaaa.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 137px;
+        padding-bottom: 168px;
+        object-fit: contain;
+
+        &-text{
+            font-family: $CharterITCStd;
+            font-size: 72px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-align: center;
+            color: $white;
+           
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+.Preventative{
+    background-color: $white-two;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-data{
+       
+       
+    display: flex;
+     align-items: center;
+     flex-direction: column;
+
+        &-heading{
+            max-width: 870px;
+            margin-top: 60px;
+            font-family: $CharterITCStd;
+            font-size: 35px;
+            line-height: 1.03;
+        }
+        &-text{
+            max-width: 841px;
+            margin-top: 19px;
+            margin-bottom: 44px;
+            
+            font-family: $ProximaNova;
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: center;
+            color: $brownish-grey;
+            font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+        }
+    }
+}

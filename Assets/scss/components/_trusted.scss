@@ -1,0 +1,54 @@
+.trusted{
+
+    &-container{
+        background-color:$white-two;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 98px;
+        padding-bottom: 126px;
+        @include max-screen(md){
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        &-verified{
+            width: 30%;
+            margin-left: 80px;
+            @include max-screen(md){
+                margin-left: 0px;
+                width: 100%;
+                padding: 20px;
+            }
+            &-heading{
+                font-family: $ProximaNova;
+                font-size: 19px;
+                line-height: 1.26;
+                letter-spacing: 2.85px;
+                color: $grape-purple;
+                font-weight: bold;
+            }
+            &-text{
+                margin-top: 53px;
+                font-family: $ProximaNova;
+                font-size: 15px;
+                line-height: 1.6;
+                text-align: left;
+              
+            }
+        }
+        &-img32{
+            margin-left: 135px;
+            margin-right: 160px;
+            @include max-screen(md){
+                margin: 0px;
+            }
+        }
+        &-img33{
+            margin-right: 139px;
+            @include max-screen(md){
+                margin: 0px;
+            }
+        }
+    }
+}

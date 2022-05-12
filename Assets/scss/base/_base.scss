@@ -1,0 +1,109 @@
+// * Box sizing rules */
+// *,
+// *::before,
+// *::after {
+//     box-sizing: border-box;
+// }
+
+// /* Remove default padding */
+// ul[class],
+// ol[class] {
+//     padding: 0;
+// }
+
+// /* Remove default margin */
+// body,
+// h1,
+// h2,
+// h3,
+// h4,
+// p,
+// ul[class],
+// ol[class],
+// li,
+// figure,
+// figcaption,
+// blockquote,
+// dl,
+// dd {
+//     margin: 0;
+// }
+
+// /* Set core body defaults */
+// body {
+  
+// }
+
+// /* Remove list styles on ul, ol elements with a class attribute */
+// ul[class],
+// ol[class] {
+//     list-style: none;
+// }
+
+// /* A elements that don't have a class get default styles */
+// a:not([class]) {
+//     text-decoration-skip-ink: auto;
+// }
+
+// /* Make images easier to work with */
+// img {
+//     display: block;
+//     max-width: 100%;    
+// }
+
+// /* Natural flow and rhythm in articles by default */
+// article > * + * {
+//     margin-top: 1em;
+// }
+
+// /* Inherit fonts for inputs and buttons */
+// input,
+// button,
+// textarea,
+// select {
+//     font: inherit;
+// }
+h1{
+
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: center;
+    font-family: $CharterITCStd;
+    color:$white;
+    font-size: 35px;
+    padding: 0 3rem 3rem;
+    margin: 0;
+
+}
+h2{
+    font-weight: 400;
+    color: $light-black;
+    font-family: $CharterITCStd;
+    line-height: 1.03;
+    letter-spacing: normal;
+}
+
+// p{
+//     font-family: $CharterITCStd;
+//     text-align: left;
+//     color: $brownish-grey;
+//     line-height: 1.6;
+//     letter-spacing: normal;
+//     font-size: 15px;
+//     font-weight: 400;
+// }
+a{
+    color: $black;
+     text-decoration: underline;
+     font-family: $CharterITCStd;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+font-family: $ProximaNova;
+}
+
+*{
+    all: none;
+}

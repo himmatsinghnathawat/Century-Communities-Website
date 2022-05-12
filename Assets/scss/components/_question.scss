@@ -1,0 +1,345 @@
+.question {
+    &-form {
+        background-color: $white-two;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        &-heading {
+
+            width: 570px;
+            margin: 30px 0 20px 2px;
+            font-family: $CharterITCStd;
+            font-size: 35px;
+            line-height: 1.03;
+            display: flex;
+            text-align: left;
+
+            @include max-screen(sm) {
+                padding: 10px;
+                width: 100%;
+                
+            }
+
+        }
+
+
+        &-text {
+            width: 570px;
+
+            margin: 20px 0 30px 2px;
+            font-family: $ProximaNova;
+            font-size: 15px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.6;
+            letter-spacing: normal;
+            text-align: left;
+            color: $brownish-grey;
+
+            @include max-screen(sm) {
+
+                width: 100%;
+                padding: 10px;
+            }
+        }
+
+        &-upper {
+            width: 570px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            @include max-screen(sm) {
+                margin-left: 30px;
+                align-items: center;
+            }
+
+            &-left {
+                width: 40%;
+                border-bottom: 2px solid $brownish-grey;
+                max-width: 250px;
+
+                @include max-screen(sm) {
+                    max-width: none;
+                  
+                    width: 70%;
+                }
+
+                &-first {
+                    margin: 0 100px 11.4px 1px;
+                    font-family: $ProximaNova;
+                    font-size: 13px;
+                    font-weight: bold;
+
+                    @include max-screen(sm) {
+
+                        width: 90%;
+                    }
+
+
+
+                }
+
+                &-input {
+                    border: none;
+                    outline: none;
+                    margin: 10px 145px 11.6px 0;
+                    font-family: $ProximaNova;
+                    font-size: 15px;
+                    text-align: left;
+                    background-color: $white-two;
+
+
+
+                }
+
+               
+            }
+
+            &-right {
+                width: 40%;
+                border-bottom: 2px solid $brownish-grey;
+                max-width: 250px;
+
+                // @include max-screen(lg) {
+                //     margin-top: 20px;
+                //     width: 70%;
+                //     max-width: none;
+
+                // }
+
+                &-last {
+                    margin: 0 100px 11.4px 1px;
+                    font-family: $ProximaNova;
+                    font-size: 13px;
+                    font-weight: bold;
+
+
+                }
+
+                &-input {
+                    background-color: $white-two;
+                    border: none;
+                    outline: none;
+                    margin: 10px 145px 11.6px 0;
+                    font-family: $ProximaNova;
+                    font-size: 15px;
+                    text-align: left;
+                }
+
+                
+            }
+
+           
+        }
+
+        &-middle {
+            width: 570px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            @include max-screen(sm) {
+                margin-left: 30px;
+                align-items: center;
+            }
+            &-left {
+
+                width: 40%;
+                border-bottom: 2px solid $brownish-grey;
+                max-width: 250px;
+
+                @include max-screen(sm) {
+                    width: 70%;
+                    max-width: none;
+                }
+
+                &-text {
+                    margin: 20px 225px 0px 1px;
+                    font-family: $ProximaNova;
+                    font-size: 13px;
+                    font-weight: bold;
+                    text-align: left;
+
+                }
+
+                &-input {
+                    background-color: $white-two;
+                    border: none;
+                    outline: none;
+                    margin: 11.4px 145px 11.6px 0;
+                    font-family: $ProximaNova;
+                    font-size: 15px;
+                    text-align: left;
+
+                }
+
+               
+            }
+
+            &-right {
+                width: 40%;
+                border-bottom: 2px solid $brownish-grey;
+                max-width: 250px;
+                @include max-screen(sm) {
+                    width: 70%;
+                    max-width: none;
+                }
+                &-email {
+                    margin: 20px 225px 0px 1px;
+                    font-family: $ProximaNova;
+                    font-size: 13px;
+                    font-weight: bold;
+                    text-align: left;
+
+                }
+
+                &-input {
+                    background-color: $white-two;
+                    border: none;
+                    outline: none;
+                    margin: 11.4px 150px 11.6px 0;
+                    font-family: $ProximaNova;
+                    font-size: 15px;
+                    line-height: 1.67;
+                    text-align: left;
+                }
+            }
+
+        }
+
+        &-message {
+            width: 570px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border-bottom: 2px solid $brownish-grey;
+            @include max-screen(sm) {
+                margin-top: 20px;
+                margin-left: -140px;
+                float: left;
+                width: 70%;
+            }
+
+           
+            &-text {
+                margin: 0 553px 11.4px 2px;
+                font-family: $ProximaNova;
+                font-size: 13px;
+                font-weight: bold;
+                line-height: 1.23;
+                letter-spacing: 0.98px;
+                text-align: left;
+            }
+
+            &-input {
+                background-color: $white-two;
+                
+                margin: 11.4px 404px 144.6px 1px;
+                width: 100%;
+                font-family: $ProximaNova;
+                font-size: 15px;
+                line-height: 1.67;
+                text-align: left;
+                border: none;
+                outline: none;
+                @include max-screen(sm) {
+                    margin: 11.4px 30px 144.6px 1px;
+                  }
+            }
+
+        }
+
+        &-bottom {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            width: 570px;
+            @include max-screen(sm) {
+                margin-top: 10px;
+                width: 90%;
+                max-width: none;
+            }
+            &-left {
+                width: 50%;
+                @include max-screen(sm) {
+                  width: 100%;
+                }
+                &-text {
+
+                    font-family: $ProximaNova;
+                    font-size: 13px;
+                    font-weight: bold;
+                    line-height: 1.23;
+                    letter-spacing: 0.98px;
+                    text-align: left;
+
+                }
+
+                &-box {
+                    &-checkbox {
+                        margin: 0 0 0 6px;
+                        font-family: $ProximaNova;
+                        font-size: 15px;
+                        line-height: 1.67;
+                    }
+
+                }
+            }
+
+            &-right {
+                width: 40%;
+                @include max-screen(sm) {
+                    width: 100%;
+                  }
+                &-img {
+                    margin-left: -50px;
+                    @include max-screen(sm) {
+                        margin-left: 0px;
+                        margin-top: 10px
+                      }
+                }
+            }
+
+        }
+
+        &-submit {
+            @include button;
+            margin-top: 28px;
+            margin-left: -290px;
+            @include max-screen(sm) {
+               margin-left: -210px;
+              }
+        }
+
+        &-offer {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 220px;
+            width: 800px;
+            margin-top: 60px;
+            margin-bottom: 59px;
+            font-family: $ProximaNova;
+            font-size: 11px;
+            line-height: 1.18;
+            text-align: left;
+            color: $brownish-grey;
+
+            @include max-screen(md) {
+                width: 100%;
+                margin-left: 0px;
+                padding: 10px;
+            }
+            @include max-screen(sm) {
+                width: 100%;
+                margin-left: 0px;
+                padding: 10px;
+              }
+        }
+    }
+}

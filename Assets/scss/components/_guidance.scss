@@ -1,0 +1,41 @@
+.guidance {
+    background-color: $white-two;
+    width: 100%;
+  
+
+    &-detailed {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        &-heading {
+            max-width: 870px;
+            font-family: $CharterITCStd;
+            font-size: 35px;
+            line-height: 1.03;
+            letter-spacing: normal;
+            text-align: center;
+        }
+
+        &-text {
+            margin-top: 19px;
+            font-family: $ProximaNova;
+            font-size: 15px;
+
+            line-height: 1.6;
+
+            text-align: center;
+            color: $brownish-grey;
+
+
+        }
+
+        &-btn {
+            margin-top: 19px;
+            @include button;
+            max-width: 280px;
+        }
+    }
+}

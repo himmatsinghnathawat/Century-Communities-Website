@@ -1,0 +1,52 @@
+/*=============  Vendor style   ================================*/
+@import "./vendor/bootstrap";
+@import "./vendor/fontawesome";
+
+
+
+/*=================  base scss  ================================*/
+@import "./base/fonts";
+@import "./base/var";
+@import "./base/mixin";
+@import "./base/base";
+@import "./base/theme";
+@import "./base/reset";
+
+/*============= Component style ================================*/
+
+
+@import "./components/header";
+@import "./components/herosection";
+@import "./components/brands";
+@import "./components/complete";
+@import "./components/smarthome";
+@import "./components/kickstart";
+@import "./components/googleNest";
+@import "./components/nexia";
+@import "./components/mini";
+@import "./components/services";
+@import "./components/best-buy";
+@import "./components/buy-home";
+@import "./components/California";
+
+@import"./components/hugeSummer.scss";
+@import"./components/offertitle";
+@import"./components/question";
+@import"./components/Related";
+@import"./components/events";
+@import"./components/homeowner";
+@import"./components/trusted";
+@import"./components/gridcard";
+@import"./components/verified";
+@import"./components/blue";
+@import"./components/terms";
+@import"./components/Privacy";
+@import"./components/table";
+@import"./components/aboutus";
+@import"./components/bestfit";
+@import"./components/Ouraffiliates";
+@import"./components/Careers";
+@import"./components/caring";
+@import"./components/summer";
+@import"./components/guidance";
+@import "./components/footer";

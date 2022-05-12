@@ -1,0 +1,21 @@
+.pathseven {
+
+    background-color: $light-white;
+    padding-top: 38px;
+    padding-left: 78px;
+    padding-right: 78px;
+    padding-bottom: 38px;
+
+
+    &-box {
+
+        &-text {
+
+            font-family: $ProximaNova;
+            font-size: 11px;
+            line-height: 1.18;
+            text-align: left;
+            color: $brownish-grey;
+        }
+    }
+}

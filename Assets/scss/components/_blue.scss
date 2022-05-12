@@ -1,0 +1,159 @@
+.bluecard {
+    &-data {
+        background-color: $light-white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 78px;
+        padding-right: 78px;
+        padding-bottom: 84px;
+        @include max-screen(md){
+     padding-left: 0;
+     padding-right: 0;
+        }
+        &-left {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 30%;
+            @include max-screen(md){
+                width: 100%;
+            }
+            &-card {
+                margin-top: 40px;
+                background-color: $white;
+                border-top: 10px solid $light-blue;
+
+                &-img {
+                    width: 100%;
+                }
+
+                &-text {
+                    margin-top: 10px;
+                    padding: 30px;
+                    font-family: $CharterITCStd;
+                    font-size: 19px;
+                    line-height: 1.32;
+                }
+
+                &-link {
+                 
+                    font-family: $ProximaNova;
+                    display: flex;
+                    gap: 10px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-bottom: 20px;
+                    font-size: 13px;
+                    line-height: 1.38;
+
+                    &-left {}
+
+                    &-right {
+                        font-size: 13px;
+                        color: $grape-purple;
+                        font-weight: bold;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+
+        &-mid {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 30%;
+            @include max-screen(md){
+                width: 100%;
+            }
+            &-card {
+                margin-top: 40px;
+                border-top: 10px solid $light-blue;
+                background-color: $white;
+
+                &-img {
+                    width: 100%;
+                }
+
+                &-text {
+                    margin-top: 10px;
+                    padding: 30px;
+                    font-family: $CharterITCStd;
+                    font-size: 19px;
+                    line-height: 1.32;
+                }
+
+                &-link {
+                    gap: 10px;
+                    font-family: $ProximaNova;
+                    display: flex;
+                   padding-left: 30px;
+                   padding-right: 30px;
+                   padding-bottom: 20px;
+                    font-size: 13px;
+                    line-height: 1.38;
+
+                    &-left {}
+
+                    &-right {
+                        color: $grape-purple;
+                        font-size: 13px;
+
+                        font-weight: bold;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+
+        &-right {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 30%;
+            @include max-screen(md){
+                width: 100%;
+            }
+            &-card {
+                margin-top: 40px;
+                border-top: 10px solid $light-blue;
+                background-color: $white;
+
+                &-img {
+                    width: 100%;
+                }
+
+                &-text {
+                    margin-top: 10px;
+                    padding: 30px;
+                    font-family: $CharterITCStd;
+                    font-size: 19px;
+                    line-height: 1.32;
+                }
+
+                &-link {
+                    gap: 10px;
+                    display: flex;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-bottom: 20px;
+                    font-family: $ProximaNova;
+                    font-size: 13px;
+                    line-height: 1.38;
+
+                    &-left {}
+
+                    &-right {
+
+                        font-size: 13px;
+                        color: $grape-purple;
+                        font-weight: bold;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+
+    }
+}

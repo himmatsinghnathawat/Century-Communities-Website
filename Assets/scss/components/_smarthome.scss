@@ -1,0 +1,46 @@
+.path {
+
+    background-color: $white-two;
+
+    &-data {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        &-heading {
+            font-family: $CharterITCStd;
+            font-size: 35px;
+            line-height: 2.03;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        &-text {
+            color: $brownish-grey;
+            font-family: ProximaNova;
+            font-size: 15px;
+            line-height: 1.6;
+            text-align: center;
+
+        }
+
+        &-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 40px;
+
+            &-img {
+                max-height: 90px;
+                object-fit: contain;
+
+                @include max-screen(md) {
+                    width: 100%;
+                    object-fit: contain;
+                    padding: 20px;
+                   }
+            }
+
+
+        }
+    }
+}

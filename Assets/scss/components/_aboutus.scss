@@ -1,0 +1,50 @@
+.about{
+    margin-bottom: 0px;
+    &-us{
+        background-image: url('../../images/aboutus.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        &-text{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 72px;
+font-family: $CharterITCStd;
+color: $white;
+padding-top: 137px;
+padding-bottom: 168px;
+
+        }
+    }
+}
+.built{
+    margin-top: 0px;
+&-data{
+    
+    padding-top: 60px;
+    padding-bottom: 45px;
+    background-color: $white-two;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        &-heading{
+            max-width: 780px;
+            font-family: $CharterITCStd;
+            font-size: 35px;
+            line-height: 1.03;
+        }
+    &-text{
+        max-width: 841px;
+        margin-top: 19px;
+        font-family: $ProximaNova;
+        font-size: 15px;
+        line-height: 1.6;
+        text-align: center;
+        color: $brownish-grey;
+    }
+}
+}

@@ -1,0 +1,50 @@
+.pathFour {
+
+    &-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 79px;
+        padding-bottom: 57px;
+        width: 100%;
+
+        &-data {
+            width: 20%;
+            display: flex;
+            flex-wrap: wrap;
+            @include max-screen(md) {
+                width: 100%;
+            }
+            &-heading {
+                margin-bottom: 14px;
+                font-family: ProximaNova;
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 2.13;
+                text-align: left;
+                color: $grape-purple;
+
+            }
+
+            &-img {
+                width: 100%;
+            }
+
+            &-img1 {
+                padding-top: 20px;
+                padding-bottom: 40px;
+            }
+
+            &-text {
+                padding-top: 17px;
+                font-family: $ProximaNova;
+                font-size: 13px;
+                line-height: 1.23;
+                text-align: left;
+                color: $brownish-grey;
+            }
+        }
+    }
+
+
+}

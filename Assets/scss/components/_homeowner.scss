@@ -1,0 +1,28 @@
+.homeowner {
+
+    // margin-top: -70px;
+    // margin-bottom: -60px;
+    &-reviews {
+
+        background-image: url('../../images/Intersection\ 261.png');
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        min-height: 400px;
+        width: 100%;
+
+        &-text {
+            font-family: $CharterITCStd;
+            font-size: 72px;
+            line-height: 1;
+            text-align: center;
+            color: $white;
+            padding-top: 137px;
+            padding-bottom: 168px;
+
+        }
+    }
+}

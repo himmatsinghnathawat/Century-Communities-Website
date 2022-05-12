@@ -1,0 +1,57 @@
+.mimi {
+    &-google {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: $white;
+
+        &-left {
+            
+            min-height: 500px;
+            width: 60%;
+            @include max-screen(md) {
+                width: 40%;
+               }
+
+            &-img {}
+        }
+
+        &-right {
+            justify-content: flex-end;
+            width: 29%;
+            margin-top: 75px;
+            @include max-screen(md) {
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+               }
+            &-img {
+
+                min-height: 29.2px;
+            }
+
+            &-heading {
+                margin-top: 46px;
+                font-family: $CharterITCStd;
+                font-size: 23px;
+                line-height: 1.48;
+                text-align: left;
+
+            }
+
+            &-text {
+                margin-top: 21px;
+                font-family: $ProximaNova;
+                font-size: 15px;
+                line-height: 1.6;
+                text-align: left;
+            }
+
+            &-img2 {
+                margin-top: 30px;
+                margin-bottom: 75px;
+            }
+        }
+    }
+}

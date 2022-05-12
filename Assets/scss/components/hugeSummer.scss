@@ -1,0 +1,69 @@
+.huge {
+    &-summer {
+        &-box {
+            &-icon {
+                margin-top: 76px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                &-logo {}
+
+                &-text {
+                    margin-top: 13px;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    font-size: 19px;
+                    font-weight: bold;
+                    font-family: $ProximaNova;
+                    line-height: 1.68;
+                    letter-spacing: 1.9px;
+                    text-align: left;
+                    color: $grape-purple;
+
+
+                  
+
+                }
+            }
+
+            &-heading {
+                margin-left: 188px;
+                margin-right: 188px;
+                margin-top: 38px;
+                margin-bottom: 56px;
+                color: $black;
+                font-family: $CharterITCStd;
+                font-size: 72px;
+                line-height: 1;
+                letter-spacing: normal;
+                text-align: center;
+
+              
+
+                @include max-screen(lg){
+                    font-size:35px;
+                }
+                @include max-screen(sm){
+                    margin: 30px;
+            }}
+            &-img {
+               width: 100%;
+               &-summimg{
+                   width: 100%;
+                   object-fit: contain;
+               }
+            }
+        }
+
+
+
+        
+
+    }
+
+
+
+}

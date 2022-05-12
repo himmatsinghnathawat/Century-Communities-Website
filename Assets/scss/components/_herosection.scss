@@ -1,0 +1,14 @@
+.backgroundimg {
+    align-items: center;
+    background-image: url("../../images/Intersection\ 26.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    width: 100%;
+
+
+    &-img {}
+}

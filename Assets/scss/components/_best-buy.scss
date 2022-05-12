@@ -1,0 +1,42 @@
+.pathfive {
+    background-color: $black-two;
+    padding: 70px;
+
+    &-data {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+
+        &-left {
+
+            &-img {
+                width: 260px;
+            }
+        }
+
+        &-right {
+
+
+            &-top {
+                font-family: CharterITCStd;
+                font-size: 23px;
+                line-height: 1.48;
+                text-align: left;
+                color: $white;
+            }
+
+            &-bottom {
+                font-family: ProximaNova;
+                width: 60%;
+                font-size: 15px;
+                line-height: 1.6;
+                text-align: left;
+                color: $white;
+
+            }
+        }
+    }
+
+
+}

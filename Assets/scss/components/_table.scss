@@ -1,0 +1,163 @@
+// table,td,th {
+//     border-right:1px solid black;
+//     padding: 20px;
+//     margin-top: 50px;
+//     border-bottom: 1px solid black;
+
+//   }
+
+.tablur {
+
+    &-data {
+        margin-top: 80px;
+
+        &-table {
+
+            &-row {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: stretch;
+
+                @include max-screen(lg) {
+                    flex-direction: column;
+                    border: 1px solid $border;
+                    border-bottom: none;
+                    margin-bottom: 0;
+                    margin-top: 20px;
+                }
+
+
+                &-data {
+                    flex-basis: 25%;
+                    border-right: 1px solid $border;
+                    // border-bottom: 1px solid $brownish-grey;
+                    padding: 20px;
+                    font-family: $ProximaNova;
+                    font-size: 15px;
+                    line-height: 1.2;
+                    padding-bottom: 30px;
+                    position: relative;
+
+
+                    @include max-screen(lg) {
+                        border-right: 0;
+                    }
+
+                    &:last-child {
+                        border: none;
+                    }
+
+                    &::before {
+                        content: '';
+                        width: calc(100% - 40px);
+                        position: absolute;
+                        bottom: 10px;
+                        left: 20px;
+                        border-bottom: 1px solid $border;
+
+                        @include max-screen(lg) {
+                            left: 0;
+                            bottom: 0;
+                            width: 100%;
+                        }
+
+                    }
+
+                    &-text {
+                        display: none;
+                        padding: 20px;
+                        font-family: $ProximaNova;
+                        font-size: 13px;
+                        font-weight: bold;
+                        line-height: 1.23;
+                        letter-spacing: 0.98px;
+
+                        @include max-screen(lg) {
+                            display: block;
+                            padding-left: 0;
+                        }
+                    }
+                }
+
+
+
+
+                &-heading {
+
+                    @include max-screen(lg) {
+                        display: none;
+                    }
+
+                    border-right: 1px solid $border;
+                    flex-basis: 25%;
+                    padding: 20px;
+                    font-family: $ProximaNova;
+                    font-size: 13px;
+                    font-weight: bold;
+                    line-height: 1.23;
+                    letter-spacing: 0.98px;
+                    padding-top: 0;
+                    position: relative;
+
+                    &:last-child {
+                        border: none;
+                    }
+
+                    &::after {
+                        content: '';
+                        width: calc(100% - 40px);
+                        height: 1px;
+                        background-color: $border;
+                        position: absolute;
+                        bottom: 10px;
+                        left: 20px;
+
+
+
+                    }
+                }
+
+
+
+            }
+
+            &-row:first-child {
+                @include max-screen(lg) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+.DISCLOSURES{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+background-color: $white;
+        &-team{
+         
+            &-heading{
+                font-family: $ProximaNova;
+                font-size: 19px;
+                line-height: 1.26;
+                letter-spacing: 2.85px;
+                text-align: left;
+                color: $grape-purple;
+            }
+            &-text{
+               
+                font-family: $ProximaNova;
+                font-size: 15px;
+                line-height: 1.2;
+            }
+        }
+    }
+}

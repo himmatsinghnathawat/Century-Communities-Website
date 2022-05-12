@@ -1,0 +1,205 @@
+.bestfit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-brand {
+    
+        margin-top: 100px;
+        margin-left: 77px;
+        margin-right: 77px;
+        margin-bottom: 85px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1285px;
+        @include max-screen(lg){
+            width: 100%;
+            margin:0;
+            padding-top: 20px;
+            flex-direction: column;
+            padding-left: 20px;
+
+        }
+        &-left {
+            width: 20%;
+            @include max-screen(lg){
+                width: 100%;
+               
+                padding-top: 20px;
+            }
+            &-heading {
+
+                font-family: $ProximaNova;
+                font-size: 19px;
+                font-weight: 700;
+                line-height: 1.26;
+                letter-spacing: 2.85px;
+                text-align: left;
+                color: $grape-purple;
+            }
+
+            &-text {
+                width: 222px;
+                margin-top: 50px;
+                font-family: $CharterITCStd;
+                font-size: 35px;
+                line-height: 1.03;
+                text-align: left;
+                @include max-screen(lg){
+                    width: 100%;
+                    margin:0;
+                    padding-top: 20px;
+                }
+            }
+        }
+
+        &-mid {
+
+            width: 30%;
+            @include max-screen(lg){
+                width: 100%;
+                margin:0;
+                padding-top: 50px;
+            }
+            &-img {
+                width: 200px;
+            }
+
+            &-text {
+                margin-top: 33px;
+                font-family: $ProximaNova;
+                font-size: 15px;
+                line-height: 1.6;
+                color: $brownish-grey;
+            }
+
+            &-btm {
+                margin-top: 39px;
+
+                &-top {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    &-img {}
+
+                    &-text {
+                        font-family: $ProximaNova;
+                        font-size: 15px;
+                        font-weight: 600;
+                        line-height: 2.13;
+                        margin: 0;
+                    }
+                }
+
+                &-mid {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    &-img {}
+
+                    &-text {
+                        font-family: $ProximaNova;
+                        font-size: 15px;
+                        font-weight: 600;
+                        line-height: 2.13;
+                        margin: 0;
+                    }
+                }
+
+                &-last {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    &-img {}
+
+                    &-text {
+                        font-family: $ProximaNova;
+                        font-size: 15px;
+                        font-weight: 600;
+                        line-height: 2.13;
+                        margin: 0;
+                    }
+                }
+            }
+
+        }
+
+        &-last {
+
+            width: 30%;
+            @include max-screen(lg){
+                width: 100%;
+                margin:0;
+                padding-top: 50px;
+            }
+            &-img {
+                width: 300px;
+            }
+
+            &-text {
+                margin-top: 33px;
+                font-family: $ProximaNova;
+                font-size: 15px;
+                line-height: 1.6;
+                color: $brownish-grey;
+            }
+
+            &-btm {
+                margin-top: 39px;
+
+                &-top {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    &-img {}
+
+                    &-text {
+                        font-family: $ProximaNova;
+                        font-size: 15px;
+                        font-weight: 600;
+                        line-height: 2.13;
+                        margin: 0;
+                    }
+                }
+
+                &-mid {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    &-img {}
+
+                    &-text {
+                        font-family: $ProximaNova;
+                        font-size: 15px;
+                        font-weight: 600;
+                        line-height: 2.13;
+                        margin: 0;
+                    }
+                }
+
+                &-last {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    &-img {}
+
+                    &-text {
+                        font-family: $ProximaNova;
+                        font-size: 15px;
+                        font-weight: 600;
+                        line-height: 2.13;
+
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

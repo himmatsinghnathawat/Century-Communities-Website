@@ -1,0 +1,15 @@
+.kickstart {
+    background-color: $white-two;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &-start {
+        &-text {
+            font-family: $CharterITCStd;
+            font-size: 35px;
+            line-height: 2.03;
+            text-align: center;
+            font-weight: 400;
+        }
+    }
+}

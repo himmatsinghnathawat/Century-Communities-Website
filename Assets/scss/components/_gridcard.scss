@@ -1,0 +1,460 @@
+.reviewscard {
+    &-data {
+        padding-top: 40px;
+        padding-left: 77px;
+        padding-right: 104px;
+        background-color: $light-white;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+     justify-content: space-between;
+     @include max-screen(md){
+       padding-left: 0;
+       padding-right: 0;
+    }
+
+        &-left {
+            display: flex;
+            flex-direction: column;
+width: 30%;
+
+@include max-screen(md){
+    width: 100%;
+}
+
+            &-firstvisitor {
+                margin-bottom: 40px;
+                border-top: 10px solid $grape-purple;
+                // grid-column: 1;
+                // grid-row: 1/3;
+                background-color: $white;
+
+                &-img {
+                    width: 100%;
+                }
+
+                &-text {
+                    margin-top: 10px;
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 10px;
+                    font-family: CharterITCStd;
+                    font-size: 19px;
+                    line-height: 1.32;
+                    text-align: left;
+
+
+                }
+
+                &-place {
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 25px;
+                    display: flex;
+                    gap: 10px;
+
+                    gap: 2px;
+
+                    &-left {
+                        font-family: $ProximaNova;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        text-align: left;
+                    }
+
+                    &-right {
+                        font-family: $ProximaNova;
+                        font-weight: bold;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        letter-spacing: 1.3px;
+                        color: $grape-purple;
+                    }
+                }
+            }
+
+            &-fourthvisitor {
+                margin-bottom: 40px;
+                border-top: 10px solid $grape-purple;
+                // grid-column: 1;
+                // grid-row: 3/5;
+                background-color: $white;
+
+                &-text {
+                    margin-top: 10px;
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 10px;
+                    font-family: CharterITCStd;
+                    font-size: 19px;
+                    line-height: 1.32;
+                    text-align: left;
+
+                }
+
+                &-place {
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 25px;
+                    display: flex;
+                    gap: 10px;
+
+                    &-left {
+                        font-family: $ProximaNova;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        text-align: left;
+                    }
+
+                    &-right {
+                        font-family: $ProximaNova;
+                        font-weight: bold;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        letter-spacing: 1.3px;
+                        color: $grape-purple;
+                    }
+                }
+            }
+
+            &-seventhvisitor {
+                margin-bottom: 40px;
+                border-top: 10px solid $grape-purple;
+                grid-column: 1;
+
+                background-color: $white;
+
+                &-text {
+                    margin-top: 10px;
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 10px;
+                    font-family: CharterITCStd;
+                    font-size: 19px;
+                    line-height: 1.32;
+                    text-align: left;
+
+                }
+
+                &-place {
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 25px;
+                    display: flex;
+                    gap: 10px;
+
+                    &-left {
+                        font-family: $ProximaNova;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        text-align: left;
+                    }
+
+                    &-right {
+                        font-family: $ProximaNova;
+                        font-weight: bold;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        letter-spacing: 1.3px;
+                        color: $grape-purple;
+                    }
+                }
+            }
+        }
+
+        &-midd {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            @include max-screen(md){
+                width: 100%;
+            }
+            &-secondvisitor {
+                border-top: 10px solid $grape-purple;
+                // grid-column: 2;
+                //  grid-row: 1/2;
+                background-color: $white;
+                margin-bottom: 40px;
+
+                &-text {
+                    margin-top: 10px;
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 10px;
+                    font-family: CharterITCStd;
+                    font-size: 19px;
+                    line-height: 1.32;
+                    text-align: left;
+
+                }
+
+                &-place {
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 25px;
+                    display: flex;
+                    gap: 10px;
+
+                    &-left {
+                        font-family: $ProximaNova;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        text-align: left;
+                    }
+
+                    &-right {
+                        font-family: $ProximaNova;
+                        font-weight: bold;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        letter-spacing: 1.3px;
+                        color: $grape-purple;
+                    }
+                }
+            }
+
+            &-fifthvisitor {
+                margin-bottom: 40px;
+                border-top: 10px solid $grape-purple;
+                // grid-column: 2;
+                // grid-row: 2/4;
+                background-color: $white;
+
+                &-text {
+                    margin-top: 10px;
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 10px;
+                    font-family: CharterITCStd;
+                    font-size: 19px;
+                    line-height: 1.32;
+                    text-align: left;
+
+                }
+
+                &-place {
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 25px;
+                    display: flex;
+                    gap: 10px;
+
+                    &-left {
+                        font-family: $ProximaNova;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        text-align: left;
+                    }
+
+                    &-right {
+                        font-family: $ProximaNova;
+                        font-weight: bold;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        letter-spacing: 1.3px;
+                        color: $grape-purple;
+                    }
+                }
+
+            }
+
+            &-eightthvisitor {
+                margin-bottom: 40px;
+                border-top: 10px solid $grape-purple;
+                // grid-column: 2;
+                // // grid-row: 3/6;
+                background-color: $white;
+
+                &-img {
+                    width: 100%;
+                }
+
+                &-text {
+                    margin-top: 10px;
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 10px;
+                    font-family: CharterITCStd;
+                    font-size: 19px;
+                    line-height: 1.32;
+                    text-align: left;
+
+                }
+
+                &-place {
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 25px;
+                    display: flex;
+                    gap: 10px;
+
+                    &-left {
+                        font-family: $ProximaNova;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        text-align: left;
+                    }
+
+                    &-right {
+                        font-family: $ProximaNova;
+                        font-weight: bold;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        letter-spacing: 1.3px;
+                        color: $grape-purple;
+                    }
+                }
+            }
+
+        }
+
+        &-right {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            @include max-screen(md){
+                width: 100%;
+            }
+            &-thirdvisitor {
+                margin-bottom: 40px;
+                border-top: 10px solid $grape-purple;
+                // grid-column: 3;
+                // grid-row: 1/3;
+                background-color: $white;
+
+                &-img {
+                    width: 100%;
+                }
+
+                &-text {
+                    margin-top: 10px;
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 10px;
+                    font-family: CharterITCStd;
+                    font-size: 19px;
+                    line-height: 1.32;
+                    text-align: left;
+
+                }
+
+                &-place {
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 25px;
+                    display: flex;
+                    gap: 10px;
+
+                    &-left {
+                        font-family: $ProximaNova;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        text-align: left;
+                    }
+
+                    &-right {
+                        font-family: $ProximaNova;
+                        font-weight: bold;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        letter-spacing: 1.3px;
+                        color: $grape-purple;
+                    }
+                }
+            }
+            &-sixthvisitor {
+                margin-bottom: 40px;
+                border-top: 10px solid $grape-purple;
+                // grid-column: 3;
+                // grid-row: 3/5;
+                background-color: $white;
+
+                &-img {
+                    width: 100%;
+                }
+
+                &-text {
+                    margin-top: 10px;
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 10px;
+                    font-family: CharterITCStd;
+                    font-size: 19px;
+                    line-height: 1.32;
+                    text-align: left;
+
+                }
+
+                &-place {
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 25px;
+                    display: flex;
+                    gap: 10px;
+
+                    &-left {
+                        font-family: $ProximaNova;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        text-align: left;
+                    }
+
+                    &-right {
+                        font-family: $ProximaNova;
+                        font-weight: bold;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        letter-spacing: 1.3px;
+                        color: $grape-purple;
+                    }
+                }
+
+            }
+
+            &-ninthvisitor {
+                margin-bottom: 40px;
+                border-top: 10px solid $grape-purple;
+                // grid-column: 3;
+                // // grid-row: 4/6;
+                background-color: $white;
+
+                &-text {
+                    margin-top: 10px;
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 10px;
+                    font-family: CharterITCStd;
+                    font-size: 19px;
+                    line-height: 1.32;
+                    text-align: left;
+
+                }
+
+                &-place {
+                    padding-left: 29px;
+                    padding-right: 30px;
+                    padding-bottom: 25px;
+                    display: flex;
+                    gap: 10px;
+
+                    &-left {
+                        font-family: $ProximaNova;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        text-align: left;
+                    }
+
+                    &-right {
+                        font-family: $ProximaNova;
+                        font-weight: bold;
+                        font-size: 13px;
+                        line-height: 1.38;
+                        letter-spacing: 1.3px;
+                        color: $grape-purple;
+                    }
+                }
+            }
+        }
+
+    }
+}

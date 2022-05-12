@@ -1,0 +1,80 @@
+.summer {
+    &-data {
+        max-width: 1440px;
+        margin: auto;
+
+        &-cont {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            &-points {
+                width: 100%;
+                max-width: 450px;
+                margin: auto;
+                display: flex;
+                padding-bottom: 30px;
+
+                align-items: flex-start;
+
+                flex-direction: column;
+
+
+                justify-content: center;
+
+
+                &-heading {
+                    margin-bottom: 34px;
+                    margin-top: 93px;
+                    margin-left: 20px;
+                    font-family: $ProximaNova;
+                    font-size: 19px;
+                    font-weight: 700;
+                    line-height: 1.26;
+                    letter-spacing: 2.85px;
+                    text-align: left;
+                    color: $grape-purple;
+
+                    @include max-screen(lg) {}
+                }
+
+                &-unorderList {
+
+                    &-list {
+                      
+                        align-items: center;
+                        padding-left: 8px;
+                    
+
+                    &-text {
+
+                        font-family: $ProximaNova;
+                        font-size: 15px;
+                        line-height: 2.13;
+                        padding-left: 20px;
+                    }
+                }
+                }
+
+            }
+
+            &-img {
+                width: 720px;
+
+                object-fit: contain;
+
+                &-full {
+                    width: 100%;
+                }
+
+            }
+
+        }
+    }
+}
+
+.left-image-div {
+    flex-direction: row-reverse;
+
+}

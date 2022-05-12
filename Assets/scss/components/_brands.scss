@@ -1,0 +1,41 @@
+.Rectangle {
+    align-items: center;
+    background-color: $different-white;
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+    min-height: 100px;
+
+
+    &-left {
+        border-bottom: 3px solid $grape-purple;
+        height: 100px;
+        display: flex;
+        align-items: center;
+
+        &-group {}
+    }
+
+    &-center {
+        border-right: 3px solid $brownish-grey;
+        min-height: 40px;
+        margin-left: 100px;
+        margin-right: 100px;
+
+        @include max-screen(lg) {
+            margin-left: 33px;
+            margin-right: 33px;
+
+        }
+    }
+        &-right {
+            height: 100px;
+            display: flex;
+            align-items: center;
+
+            &-group {
+                padding-top: 15px;
+            }
+        }
+    
+}
